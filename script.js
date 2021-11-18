@@ -202,8 +202,8 @@ $(document).ready(function (){
 
         $("#initials-submit").on("click", function(event){
             event.preventDefault();
-            // Even though the Current State Is not Initial
-            // we set it here so we can go back to the beginning from the Back Button in the Leadeboard
+           
+            
             currState = appStates.Initial;
 
             var inputInitials = $("#initials").val();
