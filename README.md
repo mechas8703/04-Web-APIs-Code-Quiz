@@ -27,5 +27,5 @@ Acceptance Criteria
 ## [Link to deployed application](https://mechas8703.github.io/04-Web-APIs-Code-Quiz/) 
 
 ![coding quiz chanllange](./assets/images/coding-quiz-challange.PNG)
-![questions](./assets/images/questions.PNG)
+![questions](./assets/images/questions1.PNG)
 ![highscores](./assets/images/highscores.PNG)
