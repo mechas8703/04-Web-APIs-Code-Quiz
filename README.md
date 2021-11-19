@@ -25,3 +25,7 @@ Acceptance Criteria
 * THEN I can save my initials and my score
 
 ## [Link to deployed application](https://mechas8703.github.io/04-Web-APIs-Code-Quiz/) 
+
+![coding quiz chanllange](./assets/images/coding-quiz-challange.PNG)
+![questions](./assets/images/questions.PNG)
+![highscores](./assets/images/highscores.PNG)
