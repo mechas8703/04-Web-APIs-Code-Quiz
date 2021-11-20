@@ -1,4 +1,5 @@
 # 04 Web APIs: Code Quiz
+Create a timed quiz using Javascript. Quiz has a time limit of 75 seconds. Quiz will start by clicking the "Start" botton and the time will start counting down. If the answer is correct, the time will remin the same and the score will increase by 30points, but if the answer is wrong the time will be reduced by 10seconds as penalty. You should be able to see your score when the quix is over and store it in highscores link. Click Hoghscores link to see all scores stored.
 
 ## The Task
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment—perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges.
