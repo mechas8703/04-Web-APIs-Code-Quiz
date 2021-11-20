@@ -49,6 +49,13 @@ li {
     left: 1em;
     clear: both;
     color: rgb(77, 0, 128);
+    cursor:pointer;
+}
+
+#highscores:hover {
+    background-color: rgb(77, 0, 128);
+    border-color: rgb(77, 0, 128);
+    color:whitesmoke;
 }
 
 #timer {
