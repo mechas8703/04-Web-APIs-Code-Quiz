@@ -48,7 +48,7 @@ li {
     top: 0;
     left: 1em;
     clear: both;
-    color: purple;
+    color: rgb(77, 0, 128);
 }
 
 #timer {
@@ -72,23 +72,30 @@ li {
     border-radius: 5px;
 }
 
-.peach {
-    background-color: #F81498;
+.scores {
+    background-color: #bebadc;
 }
 
-.orchid {
-    background-color: #3314F8;
+.scores2 {
+    background-color: #e468b0;
 }
 
-.btn-purple {
-    background-color: purple;
-    border-color: purple;
+.btn-custom{
+    background-color: rgb(77, 0, 128);
+    border-color: rgb(77, 0, 128);
     color:white;
     font-weight: bold;
     padding: 3px 6px;
 }
 
-.container1 {
+.btn-custom:hover{
+    background-color: whitesmoke;
+    border-color: rgb(77, 0, 128);
+    color:rgb(77, 0, 128);
+}
+
+
+.nav-container {
     position: relative;
     width: 100%;
     margin-top: .5em;

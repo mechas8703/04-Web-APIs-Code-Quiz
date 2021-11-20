@@ -123,7 +123,7 @@ $(document).ready(function (){
         
         var header = $("<header><h1>Coding Quiz Challenge</h1></header>");
         var paragraph = $("<p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize yuour score/time by ten seconds.</p>")
-        var button = $("<button id=\"start-quiz-btn\" type=\"button\" class=\"btn btn-purple\">Start Quiz</button>")
+        var button = $("<button id=\"start-quiz-btn\" type=\"button\" class=\"btn-custom\">Start Quiz</button>")
 
         $(contElement).append(header, paragraph, button);
 
@@ -149,7 +149,7 @@ $(document).ready(function (){
         var unList = $("<ul>");
 
         $(questionObj.options).each(function(index, value){
-            var btn = $(`<li><button type="button" class="ques-option btn btn-purple" data-ques-option="${value}">${index + 1}. ${value}</button></li>`);
+            var btn = $(`<li><button type="button" class="ques-option btn-custom" data-ques-option="${value}">${index + 1}. ${value}</button></li>`);
             $(unList).append(btn);
         });
 
@@ -196,7 +196,7 @@ $(document).ready(function (){
 
         var header = $("<h1>All Done!</h1>");
         var paragraph = $(`<p style="text-align: left">Your final score is ${totalScore}.</p>`);
-        var submitField = $("<div class=\"submit-field\">Enter initials: <input id=\"initials\" type=\"text\"> <button id=\"initials-submit\" type=\"button\" class=\"btn btn-purple\">Submit</button></div>");
+        var submitField = $("<div class=\"submit-field\">Enter initials: <input id=\"initials\" type=\"text\"> <button id=\"initials-submit\" type=\"button\" class=\"btn-custom\">Submit</button></div>");
 
         $(contElement).append(header, paragraph, submitField);
 
@@ -259,9 +259,9 @@ $(document).ready(function (){
                 var liElement = $(`<li class="highscore">${counter}. ${key} - ${value}</li>`);
 
                 if (counter % 2)
-                    liElement.addClass("orchid");
+                    liElement.addClass("scores");
                 else
-                    liElement.addClass("peach");
+                    liElement.addClass("scores2");
 
                 $(orderScores).append(liElement);
                 counter++;
@@ -286,7 +286,7 @@ $(document).ready(function (){
             } 
         }
 
-        var buttons = $("<div style=\"text-align:left\"><button id=\"hs-back\" type=\"button\" class=\"btn btn-purple\">Go Back</button> <button id=\"hs-clear\" type=\"button\" class=\"btn btn-purple\">Clear Highscores</button></div>");
+        var buttons = $("<div style=\"text-align:left\"><button id=\"hs-back\" type=\"button\" class=\"btn-custom\">Go Back</button> <button id=\"hs-clear\" type=\"button\" class=\"btn-custom\">Clear Highscores</button></div>");
 
         $(contElement).append(buttons);
 
